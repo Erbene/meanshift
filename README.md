@@ -38,7 +38,8 @@ cluster_tolerance = 0.01 # cluster tolerance refers is used as a stop measure wh
 
 ## Mean-shift image segmentation results
 
-When running the algorithm for sample image 1 , the following results are obtained:
+When running the algorithm for sample image 1, the following results are obtained:
+
 **Parameters used:**
 ```
 image_path = 'Y2.jpg'
@@ -47,11 +48,40 @@ meanshift_bandwidth = 0.1
 cluster_tolerance = 0.01
 ```
 **Image segmentation results:**
-<p style="text-align: center;">
-  <img src="https://user-images.githubusercontent.com/8680272/145040557-cf688463-fcb8-4219-a63d-36eb546cefc5.png" />
-  <br>
-  <em>Fig.3 - Sample Image 1 segmentation result</em>
-</p>
+<div >
+  <div>
+    <img src="https://user-images.githubusercontent.com/8680272/145040557-cf688463-fcb8-4219-a63d-36eb546cefc5.png" />
+    <br>
+    <em>Fig.3 - Sample Image 1 segmentation result</em>
+  <div/>
+  <div>
+    <img src="https://user-images.githubusercontent.com/8680272/145041878-f312458e-e8ea-4f3d-9816-2f15468e2982.png" />
+    <br>
+    <em>Fig.4 - Sample Image 1 segmentation result as an overlay in original image</em>
+  <div/>
+</div>
+
+For sample image 2, the following results are obtained:
+**Parameters used:**
+```
+image_path = 'Y15.jpg'
+number_of_hist_bins = 5
+meanshift_bandwidth = 0.1 
+cluster_tolerance = 0.01
+```
+**Image segmentation results:**
+<div >
+  <div>
+    <img src="https://user-images.githubusercontent.com/8680272/145045236-73cdb6ae-32ec-41c8-9a20-914717daf328.png" />
+    <br>
+    <em>Fig.5 - Sample Image 2 segmentation result</em>
+  <div/>
+  <div>
+    <img src="https://user-images.githubusercontent.com/8680272/145045378-88ac0535-0f54-419b-8258-cb3b27681049.png" />
+    <br>
+    <em>Fig.6 - Sample Image 2 segmentation result as an overlay in original image</em>
+  <div/>
+</div>
 
 
 
